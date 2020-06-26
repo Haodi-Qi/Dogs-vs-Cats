@@ -1,0 +1,23 @@
+Network architecture:
+- 4 CNN layers with kernel size 3x3 and padding = 1
+- Maxpooling with kernel size = 2 and stride = 2
+- 2 Linear Layer
+- Dropout layer with p = 0.2
+- ReLU activation function
+
+Criterion:
+- BCEWithLogitsLoss
+
+Optimizer:
+- Adam with learning rate of 1e-6
+
+Epoch trained:
+- 700
+
+Best model:
+- Training loss: 0.350259
+- Validation loss with 2000 imgs: 0.359377
+
+Test data evaluation:
+- Best model with 500 epoch trained (Training Loss: 0.380647, Validation Loss: 0.381679) gives the logloss score of 1.20846
+- Best model with 700 epoch trained gives the logloss score of 1.29274
