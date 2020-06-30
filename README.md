@@ -3,6 +3,8 @@ My first deep learning project with PyTorch: Classify Dogs and Cats with PyTorch
 
 This project follows the Kaggle Dogs vs Cats competition (https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition). The details of the data and competition rules can be found in the link. 
 
+All model version specifications are in the version.info file in the respective folders.
+
 <hr>
 <h2>Data</h2>
 The training data contains 12500 images of cats and dogs respectively with the label being part of the image file name. The images are coloured and of various sizes.
