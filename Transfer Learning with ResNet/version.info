@@ -1,0 +1,23 @@
+Network architecture:
+- ResNet101 pre-trained model
+- Change the classification layer to a linear layer with 2 outputs
+
+Criterion:
+- CrossEntropyLoss
+
+Optimizer:
+- SGD with learning rate of 0.001 and momentum of 0.9
+
+Scheduler:
+- a Step Scheduler that decays learning rate by a factor of 0.1 every 7 epochs
+
+Epoch trained:
+- 120
+
+Best model:
+- Trained with 109 epochs
+- Training loss: 0.3370
+- Validation loss with 2000 imgs: 0.326167
+
+Test data evaluation:
+- Best model gives the logloss score of 0.87131

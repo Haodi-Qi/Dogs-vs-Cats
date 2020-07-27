@@ -1,0 +1,25 @@
+Network architecture:
+- 5 CNN layers with kernel size 3x3 and padding = 1
+- Maxpooling with kernel size = 2 and stride = 2
+- 2 Linear Layer
+- Dropout layer with p = 0.2
+- ReLU activation function
+
+Criterion:
+- BCEWithLogitsLoss
+
+Optimizer:
+- Adamgrad with learning rate of 1e-3
+
+Epoch trained:
+- 500
+
+Best model:
+- Training loss: 0.104639
+- Validation loss with 2000 imgs: 0.190923
+
+Test data evaluation:
+- Best model gives the logloss score of 3.14254
+
+Note:
+- From the loss_plot_500 and the test data logloss, it is clear that the model has been trained too much and overfitting occurs. The best model is probably trained with about 300 epochs. 
