@@ -1,4 +1,4 @@
-# Dogs_vs_Cats
+# Dogs-vs-Cats
 My first deep learning project with PyTorch: Classify Dogs and Cats with PyTorch models
 
 This project follows the Kaggle Dogs vs Cats competition (https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition). The details of the data and competition rules can be found in the link. 
